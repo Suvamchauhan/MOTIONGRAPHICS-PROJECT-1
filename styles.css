@@ -11,11 +11,15 @@ body {
   margin: 0;
 }
 
+h1{
+  padding: 20px;
+}
+
 /* Updated styles for the switch container */
 .switch-container {
   position: fixed;
   width: 140px; 
-  height: 50px; 
+  height: 50px;
   display: inline-block; 
 }
 
@@ -26,6 +30,7 @@ body {
   background-color: rgb(192, 51, 16);
   transition: background-color 0.5s ease-in-out;
   display: flex;
+  border-radius: 100px;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -59,13 +64,10 @@ body {
   position: relative;
   width: 160px; 
 }
-
+/* to style the message when the switch in on and off */
 #switch-message {
   position: absolute;
   color: white;
   top: 2px;
 }
 
-h1{
-  padding: 20px;
-}
