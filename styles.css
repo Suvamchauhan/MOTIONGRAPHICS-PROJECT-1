@@ -23,34 +23,27 @@ body {
   position: absolute;
   width: 100px; 
   height: 55px; 
-  border-radius: 15px;
   background-color: rgb(192, 51, 16);
   transition: background-color 0.5s ease-in-out;
-  
 }
+
 #toggle-switch.on {
   background-color: rgb(15, 104, 20); 
 }
 
-/*Add text labels for ON and OFF */
+/* Add text labels for ON and OFF */
 #toggle-switch::before {
   content: "OFF";
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  color: rgb(255, 255, 255);
+  position: center;
 }
 
 #toggle-switch.on::before {
   content: "ON";
-  left: auto;
-  right: 10px;
 }
 
 /* Add styles for the border box */
 .switch-border {
-  background-color:rgb(146, 146, 118) ;
+  background-color: rgb(146, 146, 118);
   display: inline-block;
   border: 2px solid #ccc; 
   padding: 2px; 
@@ -64,5 +57,11 @@ body {
 }
 
 #switch-message {
-  color: white; 
+  position: absolute;
+  color: white;
+  top: 2px;
+}
+
+h1{
+  padding: 20px;
 }
