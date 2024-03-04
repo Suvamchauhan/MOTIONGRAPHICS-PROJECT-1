@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  background-color: rgb(14, 13, 13); 
+  color: white; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Updated styles for the switch container */
+.switch-container {
+  position: fixed;
+  width: 140px; 
+  height: 50px; 
+  display: inline-block; 
+  margin-bottom: 10px; 
+}
+
+#toggle-switch {
+  position: absolute;
+  width: 90px; 
+  height: 100%; 
+  border-radius: 15px;
+  background-color: rgb(192, 51, 16);
+  transition: background-color 0.5s ease-in-out;
+  
+}
+#toggle-switch.on {
+  background-color: rgb(15, 104, 20); 
+}
+
+/*Add text labels for ON and OFF */
+#toggle-switch::before {
+  content: "OFF";
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: rgb(255, 255, 255);
+}
+
+#toggle-switch.on::before {
+  content: "ON";
+  left: auto;
+  right: 10px;
+}
+
+/* Add styles for the border box */
+.switch-border {
+  background-color:rgb(146, 146, 118) ;
+  display: inline-block;
+  border: 2px solid #ccc; 
+  padding: 15px; 
+  border-radius: 5px; 
+}
+
+/* Update styles for the switch container */
+.switch-container {
+  position: relative;
+  width: 150px; 
+  height: 50px; 
+  display: inline-block; 
+}
+
+#switch-message {
+  color: white; 
+}
