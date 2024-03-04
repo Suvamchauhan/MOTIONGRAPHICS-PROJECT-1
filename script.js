@@ -14,7 +14,7 @@ $(document).ready(function () {
         $('#switch-message').text(''); // To Clear the message after a few seconds when turned off
       }, 1000); 
     }
-    // Slide animation for the toggle switch
+    // To Slide animation for the toggle switch
     $(this).animate({ left: $(this).hasClass("on") ? 0 : 60 }, 300); 
   });
 });

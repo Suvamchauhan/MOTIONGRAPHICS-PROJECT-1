@@ -25,6 +25,10 @@ body {
   height: 55px; 
   background-color: rgb(192, 51, 16);
   transition: background-color 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 #toggle-switch.on {
