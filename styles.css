@@ -22,7 +22,7 @@ body {
 #toggle-switch {
   position: absolute;
   width: 100px; 
-  height: 100%; 
+  height: 55px; 
   border-radius: 15px;
   background-color: rgb(192, 51, 16);
   transition: background-color 0.5s ease-in-out;
@@ -60,9 +60,7 @@ body {
 /* Update styles for the switch container */
 .switch-container {
   position: relative;
-  width: 155px; 
-  height: 50px; 
-  display: inline-block; 
+  width: 160px; 
 }
 
 #switch-message {
