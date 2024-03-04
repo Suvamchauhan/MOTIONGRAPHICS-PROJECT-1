@@ -30,7 +30,6 @@ h1{
   background-color: rgb(192, 51, 16);
   transition: background-color 0.5s ease-in-out;
   display: flex;
-  border-radius: 100px;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -70,4 +69,3 @@ h1{
   color: white;
   top: 2px;
 }
-
